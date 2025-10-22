@@ -1,5 +1,5 @@
-const REMOTE_STORAGE_HOST = 'https://rnszqhyihsvmhkgsxned.supabase.co'
-const BUCKET_PATH = 'storage/v1/object/public/nextjs-dummy-store-images'
+const REMOTE_STORAGE_HOST = 'https://isawdhumzsvuapiqdwzi.supabase.co'
+const BUCKET_PATH = 'storage/v1/object/public/nextjs%20dummy'
 
 const COMMON_ASSETS_FOLDER = 'assets'
 const PRODUCTS_IMAGES_FOLDER = 'products'

@@ -13,9 +13,9 @@ export default function Home() {
     <Content>
       <Section className="grid grid-cols-1 gap-4 lg:grid-cols-2">
         <div className="lg:col-span-1">
-          <Heading type={1}>Welcome to Whimsy Wonders</Heading>
+          <Heading type={1}>Welcome to KonsulKu</Heading>
           <p className="text-xl">
-            At Whimsy Wonders, we believe that life is just too serious, and
+            At KonsulKu, we believe that life is just too serious, and
             sometimes, you need a little dose of the absurd to brighten your
             day. Our e-commerce store is a treasure trove of utterly useless
             products that serve no practical purpose but are guaranteed to
@@ -23,8 +23,8 @@ export default function Home() {
           </p>
         </div>
         <Image
-          src={`${REMOTE_STORAGE.ASSETS}/hero.webp`}
-          alt="Whimsy Wonders"
+          src={`${REMOTE_STORAGE.ASSETS}/hero.png`}
+          alt="KonsulKu"
           width={400}
           height={250}
           priority
@@ -43,7 +43,7 @@ export default function Home() {
       </Section>
 
       <Section>
-        <Heading type={2}>Whimsy Wonders Community</Heading>
+        <Heading type={2}>KonsulKu Community</Heading>
         <CommentsList size={12} />
       </Section>
     </Content>

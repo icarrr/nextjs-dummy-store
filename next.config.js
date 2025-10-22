@@ -6,9 +6,9 @@ const nextConfig = {
       // Supabase Storage
       {
         protocol: 'https',
-        hostname: 'rnszqhyihsvmhkgsxned.supabase.co',
+        hostname: 'isawdhumzsvuapiqdwzi.supabase.co',
         port: '',
-        pathname: '/storage/v1/object/public/nextjs-dummy-store-images/**',
+        pathname: '/storage/v1/object/public/nextjs%20dummy/**',
       },
     ],
   },

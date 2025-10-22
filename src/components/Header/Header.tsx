@@ -1,16 +1,16 @@
 'use client'
 
 import {
-  BugAntIcon,
-  ChatBubbleBottomCenterIcon,
-  DocumentTextIcon,
-  ShoppingBagIcon,
+    BugAntIcon,
+    ChatBubbleBottomCenterIcon,
+    DocumentTextIcon,
+    ShoppingBagIcon,
 } from '@heroicons/react/24/outline'
 import {
-  BugAntIcon as BugAntIconSolid,
-  ChatBubbleBottomCenterIcon as ChatBubbleBottomCenterIconSolid,
-  DocumentTextIcon as DocumentTextIconSolid,
-  ShoppingBagIcon as ShoppingBagIconSolid,
+    BugAntIcon as BugAntIconSolid,
+    ChatBubbleBottomCenterIcon as ChatBubbleBottomCenterIconSolid,
+    DocumentTextIcon as DocumentTextIconSolid,
+    ShoppingBagIcon as ShoppingBagIconSolid,
 } from '@heroicons/react/24/solid'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -106,7 +106,7 @@ export default function Header() {
     <header className={classes.header}>
       <div className={classes.layoutWrapper}>
         <Link href="/">
-          <div className={classes.logo}>Whimsy Wonders</div>
+          <div className={classes.logo}>KonsulKu</div>
         </Link>
 
         <ul className={classes.list}>

@@ -9,7 +9,7 @@ import Header from '@/components/Header/Header'
 import { inter } from '@/ui/fonts'
 
 export const metadata: Metadata = {
-  title: 'Whimsy Wonders',
+  title: 'KonsulKu',
   description: 'E-commerce project created for the purpose of learning Next.js',
 }
 
