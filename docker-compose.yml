@@ -51,6 +51,9 @@ services:
     container_name: loki
     ports:
       - "3100:3100"
+    volumes:
+      - ./monitoring/loki-config.yaml:/etc/loki/local-config.yaml
+      - loki-data:/loki
     command:
       - -config.file=/etc/loki/local-config.yaml
     restart: always
@@ -78,3 +81,4 @@ services:
 
 volumes:
   grafana-data:
+  loki-data:
