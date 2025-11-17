@@ -13,8 +13,11 @@ RUN npm ci
 # Stage 3: Build
 FROM base AS builder
 WORKDIR /app
+
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+
+RUN npx eslint . --fix
 RUN npm run build
 
 # Remove cache

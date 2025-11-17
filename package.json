@@ -17,6 +17,7 @@
     "@supabase/ssr": "^0.0.10",
     "@vercel/analytics": "^1.1.2",
     "@vercel/speed-insights": "^1.0.1",
+    "axios": "^1.12.2",
     "boring-avatars": "^1.10.1",
     "clsx": "^2.0.0",
     "gray-matter": "^4.0.3",
@@ -30,11 +31,12 @@
     "tss-react": "^4.9.3"
   },
   "devDependencies": {
+    "@sentry/node": "^10.25.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.1",
     "@types/jest": "^29.5.11",
-    "@types/node": "^20",
+    "@types/node": "^20.19.23",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",

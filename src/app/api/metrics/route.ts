@@ -1,4 +1,4 @@
-import client, { Registry, collectDefaultMetrics } from 'prom-client';
+import client, { collectDefaultMetrics,Registry } from 'prom-client';
 
 declare global {
   // preserve registry across module reloads (Next dev / serverless)
